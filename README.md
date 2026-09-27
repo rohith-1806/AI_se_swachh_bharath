@@ -14,24 +14,6 @@ The application uses a trained **PyTorch Deep Vision Classifier (MobileNetV2)** 
 
 ## End-to-End AI Architecture & Pipeline
 
-```text
-Public Dataset (Garbage + Clean Places)
-                  ↓
-       Dataset Preprocessing (`prepare_dataset.py`)
-                  ↓
-   `train.csv` + `validation.csv` + `test.csv`
-                  ↓
-  PyTorch Model Training (`train.py` - MobileNetV2)
-                  ↓
- Model Evaluation on Unseen `test.csv` (`metrics.json`)
-                  ↓
-  Saved Model Weights (`backend/ai/model/garbage_clean_model.pth`)
-                  ↓
- Flask AI Inference Engine (`services/ai_service.py`)
-                  ↓
- Citizen Upload (1–3 Images OR Video)
-                  ↓
-  Dynamic Cleanliness Score (0–100%) & Complaint Verdict
 ```
 
 ### 1. Dataset Source & Organization
