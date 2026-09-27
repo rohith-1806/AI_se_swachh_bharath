@@ -1,0 +1,29 @@
+# Secret environment variables
+.env
+.env.*
+!.env.example
+
+# Node dependencies & builds
+node_modules/
+dist/
+build/
+
+# Python cache & virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+ENV/
+env/
+
+# Uploaded binary media & evidence
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/data/db.json
+
+# Logs & System files
+*.log
+.DS_Store
+Thumbs.db
