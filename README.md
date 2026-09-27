@@ -16,7 +16,7 @@ The application uses a trained **PyTorch Deep Vision Classifier (MobileNetV2)** 
 
 ```
 
-## 🏛️ 1. Architecture Overview
+## 🏛️ Architecture Overview
 
 ```text
                          React Frontend (SPA)
@@ -39,7 +39,7 @@ The application uses a trained **PyTorch Deep Vision Classifier (MobileNetV2)** 
 
 ---
 
-## 🛠️ 2. Technology Stack
+## 🛠️ Technology Stack
 
 * **Frontend**: React 18, Vite, React Router DOM, Lucide Icons, Modern Glassmorphism CSS
 * **Backend**: Python 3.13, Flask REST API, Gunicorn / Waitress WSGI Server, Flask-CORS
@@ -50,7 +50,7 @@ The application uses a trained **PyTorch Deep Vision Classifier (MobileNetV2)** 
 
 ---
 
-## 🔐 5. Admin Authentication & AI Test Ground
+## 🔐 Admin Authentication & AI Test Ground
 
 * **Admin Login URL**: `/admin`
 * **Email**: `admin@gov.in`
