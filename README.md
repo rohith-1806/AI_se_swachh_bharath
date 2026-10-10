@@ -14,29 +14,6 @@ The application uses a trained **PyTorch Deep Vision Classifier (MobileNetV2)** 
 
 ## End-to-End AI Architecture & Pipeline
 
-```
-
-## 🏛️ Architecture Overview
-
-```text
-                         React Frontend (SPA)
-                                |
-                         HTTP / REST API
-                                |
-                                v
-                     Python + Flask Backend
-                                |
-              +----------------+----------------+
-              |                |                |
-              v                v                v
-        AI/Computer       Firebase          Telegram
-        Vision Engine     Firestore         Bot API
-              |                |
-              |           Firebase Storage
-              v
-        Multi-frame CCTV & Video Verification
-```
-
 ---
 
 ## 🛠️ Technology Stack
